@@ -1,0 +1,189 @@
+
+.WEB{
+  background-image: url(360_F_119597487_SnvLBdheEGOxu05rMQ5tCzo250cRrTz9.jpg);
+  background-size: cover;
+    height: 650px;
+   width: 100%;
+}
+
+
+.ab{
+    display: inline-block;
+}
+.ab h3{
+    margin-left: 10px;
+    background-color: black;
+    width: fit-content;
+    color: rgba(247, 251, 246, 0.886);
+    padding: 3px 10px;
+    border-top: 1px solid rgb(243, 246, 243);
+    border-bottom: 1px solid rgb(242, 247, 241);
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-style: italic;
+    transition-property: all;
+     transition-duration: 1s;
+    cursor: default;
+
+}
+.WEB h3:hover{
+
+    color:black;
+    background-image: linear-gradient(to right, orangered,white);
+    border-top: 1px solid orangered;
+    border-bottom: 1px solid orangered;
+    transform: scale(1.1);
+     box-shadow: 2px 2px 3px 3px rgb(148, 132, 125);
+}
+.Bb{
+    margin-left: 100px;
+   display: inline-block;
+}
+.Bb li {
+    float: left;
+    list-style: none;
+    margin: 0px 20px;
+    font-size: 18px;
+    transition-property: all;
+   transition-duration: 0.7s;
+    padding: 5px 10px;
+   border: 1px solid rgba(0, 0, 0, 0.008);
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+.Bb li:hover {
+            transform: scale(1.1);
+            background-image: linear-gradient( 135deg , rgb(225, 98, 225) 40%,rgb(44, 225, 238));
+            box-shadow: 2px 2px 3px 3px rgb(208, 204, 203);
+            border: 1px solid rgb(192, 182, 182);
+        }
+.Bb li a{
+    text-decoration: none;
+    color: white;
+}
+
+.Cc{
+    margin-left: 100px;
+    display: inline-block;
+}
+.Cc button {
+background-color: black;
+padding: 8px 15px;
+border: 1px solid rgb(255, 255, 255);
+margin: 12px 0px 0px 10px;
+border-radius: 20px;
+font-size: 14px;
+cursor: pointer;
+ transition-property: all;
+ transition-duration: 0.8s;
+}
+.Cc button a{
+    color: white;
+    text-decoration: none;
+}
+.Cc button:hover{
+    background-image: linear-gradient(to right, purple,white);
+            border: 1px solid black;
+            transform: scale(1.1);
+            box-shadow: 2px 2px 7px 5px rgb(214, 209, 207);
+    
+}
+.Cc button a:hover{
+    color:rgb(5, 5, 5);
+   
+}
+
+
+.B{
+    color: white;
+    margin: 100px 0px 0px 200px;
+}
+.B h1{
+    font-size: 40px;
+    transition-property: all;
+    transition-duration: 0.7s;
+    width: fit-content;
+    padding: 0px 10px;
+    cursor: default;
+    
+}
+.B h1:hover{
+    color: rgb(1, 1, 1);
+    transform: scale(1.1);
+    background-image: linear-gradient(to right,purple,white);
+    box-shadow: 3px 3px 5px 5px white;
+}
+.B form{
+    margin-top: 50px;
+}
+form input{
+    padding: 10px 130px 10px 5px;
+    font-size: 18px;
+    border: 1px solid black;
+    
+    border-radius: 5px;
+    transition-property: all;
+}
+form input:hover{
+    border: 1px solid rgb(23, 23, 23);
+    box-shadow: 3px 3px 5px 5px white;
+}
+.x{
+    padding: 10px 145px;
+    margin-top: 20px;
+    border: 1px solid rgba(12, 12, 12, 0.066);
+    background-image: linear-gradient(to right,black,white);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.6s;
+}
+.x:hover{
+    color: rgb(1, 1, 1);
+    transform: scale(1.1);
+    background-image: linear-gradient(to right,purple,white);
+    box-shadow: 3px 3px 5px 5px white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+form h2{
+    margin: 25px 0px 0px 30px;
+}
+.y{
+    padding: 7px 25px;
+    margin: 20px 0px 0px 80px;
+    background-image: linear-gradient(to right,black,white);
+    border: 1px solid rgba(16, 16, 16, 0.049);
+    cursor: pointer;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.6s;
+}
+.y:hover{
+    transform: scale(1.1);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(16, 15, 15, 0.071);
+    background-image: linear-gradient(to right,purple,white);
+    box-shadow: 3px 3px 5px 5px white;
+}
+.H{
+    background-image: linear-gradient(to right,black ,rgb(198, 184, 184));
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid rgb(105, 97, 97);
+    
+    
+    
+}
+.H p{
+    margin-top: 20px;
+    line-height: 2em;
+}
+.H p:hover{
+    color: orangered;
+}

@@ -1,0 +1,217 @@
+.FM {
+  margin: 0px 0px 0px 0px;
+  background-image: url(4WvxI7.jpg);
+  height: 700px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  
+  
+}
+
+.FM h1 {
+  font-size: 35px;
+  width: fit-content;
+  margin: 15px 0px 0px 30px;
+  transition-property: all;
+  transition-duration: 0.8s;
+  padding: 0px 20px;
+  cursor: default;
+  display: inline-block;
+
+}
+
+.FM h1:hover {
+  background-image: linear-gradient(to right,black,white);
+  transform: scale(1.05);
+  color: white;
+  box-shadow: 2px 2px 5px 5px black;
+}
+
+.FM p {
+  margin-left: 10px;
+  margin: 0px 0px 0px 50px;
+}
+
+.FM p:hover {
+  color: white;
+}
+
+.MF h2 {
+  margin: 20px 0px 10px 50px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  width: fit-content;
+  padding: 2px 30px 2px 4px;
+  cursor: default;
+  
+
+}
+
+.MF h2:hover {
+  background-image: linear-gradient(to right,black,white);
+  color: white;
+  box-shadow: 2px 2px 5px 5px rgb(9, 9, 9);
+  border: 1px solid black;
+ 
+}
+
+.fm {
+  margin: 0px 0px 0px 10px;
+  padding: 9px 47px 9px 5px;
+  border: 1px solid black;
+     ;
+
+}
+
+.fm:hover {
+  border: 1px solid black;
+  
+  box-shadow: 2px 2px 3px 3px black;
+
+}
+
+.fn {
+  margin: 0px 0px 0px 50px;
+  padding: 9px 47px 9px 5px;
+  border: 1px solid black;
+  
+}
+
+.fn:hover {
+  
+  
+
+  box-shadow: 2px 2px 3px 3px black;
+}
+
+.fa {
+  margin: 0px 0px 0px 50px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  
+}
+
+.fa:hover {
+
+  
+  box-shadow: 2px 2px 3px 3px black;
+}
+
+.fb {
+  margin-left: 50px;
+}
+
+.as {
+  margin: 10px 0px 0px 50px;
+  padding: 10px 280px 10px 5px;
+  border: 1px solid black;
+ 
+}
+
+.as:hover {
+ 
+  box-shadow: 2px 2px 3px 3px black;
+}
+
+.sa {
+  margin: 15px 0px 0px 50px;
+  padding: 7px 30px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
+.sa:hover {
+  color: black;
+  background-image: linear-gradient( orangered,white);
+  border: 1px solid black;
+  transform: scale(1.2);
+  box-shadow: 1px 1px 5px 3px black;
+}
+.A{
+  background-image: linear-gradient(orangered,silver,white);
+  width: 560px;
+  height: 580px;
+  margin: 50px 0px 0px 100px;
+  transition-property: all;
+  transition-duration: 1s;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+
+
+}
+.A:hover{
+  border: 1px solid rgb(195, 181, 181);
+  transform: scale(1.03);
+  box-shadow: 4px 4px 5px 5px rgb(16, 15, 15);
+
+}
+.B img{
+ height: 650px;
+ width: 550px; 
+ margin: 0px 0px 30px 100px;
+
+ 
+}
+
+
+.KI {
+  background-color: black;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  color:white;
+}
+
+.ki p {
+  text-align: center;
+  margin: 20px 0px 0px 330px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+}
+
+.ki p:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+.ki h3 {
+  margin-left: 330px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+}
+
+.ki h3:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+.kir p {
+  font-size: 20px;
+  margin: 40px 0px 0px 300px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+}
+
+.kir p:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+.kir span {
+  margin-left: 300px;
+
+}
+
+.kir span:hover {
+  color: orangered;
+
+}

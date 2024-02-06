@@ -1,0 +1,285 @@
+.WEB{
+  background-image: linear-gradient(to right,rgb(94, 90, 90),white);
+   height: 550px;
+   width: 100%;
+
+}
+.ab{
+   display: inline-block;
+}
+.ab h3{
+   margin-left: 10px;
+   background-color: black;
+   width: fit-content;
+   color: rgba(247, 251, 246, 0.886);
+   padding: 3px 10px;
+   border-top: 1px solid rgb(243, 246, 243);
+   border-bottom: 1px solid rgb(242, 247, 241);
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+   font-style: italic;
+   transition-property: all;
+    transition-duration: 1s;
+   cursor: default;
+
+}
+.WEB h3:hover{
+
+   color:black;
+   background-image: linear-gradient(to right, orangered,white);
+   border-top: 1px solid orangered;
+   border-bottom: 1px solid orangered;
+   transform: scale(1.1);
+    box-shadow: 2px 2px 3px 3px rgb(28, 26, 26);
+}
+.Bb{
+   margin-left: 100px;
+  display: inline-block;
+}
+.Bb li {
+   float: left;
+   list-style: none;
+   margin: 0px 20px;
+   font-size: 18px;
+   transition-property: all;
+  transition-duration: 0.7s;
+   padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.008);
+   border-radius: 2px;
+   cursor: pointer;
+   
+}
+.Bb li:hover {
+           transform: scale(1.1);
+           background-image: linear-gradient( 135deg , rgb(225, 98, 225) 40%,rgb(44, 225, 238));
+           box-shadow: 2px 2px 3px 3px rgb(16, 15, 15);
+           border: 1px solid rgb(167, 159, 159);
+       }
+.Bb li a{
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+}
+
+
+.Cc{
+   margin-left: 100px;
+   display: inline-block;
+}
+.Cc button {
+background-color: black;
+padding: 8px 15px;
+border: 1px solid rgb(255, 255, 255);
+margin: 12px 0px 0px 10px;
+border-radius: 20px;
+font-size: 14px;
+cursor: pointer;
+transition-property: all;
+transition-duration: 0.8s;
+}
+.Cc button a{
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+.Cc button:hover{
+   background-image: linear-gradient(to right, purple,white);
+           border: 1px solid black;
+           transform: scale(1.1);
+           box-shadow: 2px 2px 5px 5px rgb(19, 18, 18);
+   
+}
+.Cc button a:hover{
+   color:rgb(5, 5, 5);
+  
+}
+
+.A{
+   text-align: center;
+   margin-top: 130px;
+}
+.cs{
+   margin-left: 290px;
+   font-size: 60px;
+   transition-property: all;
+   transition-duration: 0.8s;
+   width: fit-content;
+   padding: 0px 20px;
+   cursor: default;
+}
+.cs:hover{
+   transform: scale(1.1);
+   color: white;
+   box-shadow: 3px 3px 5px 5px black;
+   background-image: linear-gradient(to right,rgb(38, 36, 36),green,white);
+}
+
+.ca{
+   font-size: 18px;
+}
+.A button{
+   background-color: rgb(0, 0, 0);
+   padding: 11px 25px;
+   margin-top: 20px;
+   border: 1px solid rgba(0, 0, 0, 0.317);
+   transition-property: all;
+   transition-duration: 0.6s;
+   cursor: pointer;
+  
+}
+.A button:hover{
+   
+   transform: scale(1.1);
+   
+   box-shadow: 3px 3px 5px 5px black;
+   background-image: linear-gradient(to right,rgb(32, 31, 31),green,white);
+  
+}
+.A button a{
+   text-decoration: none;
+   color: white;
+  
+}
+
+.B{
+   text-align: center;
+   margin-top: 30px;
+}
+.zx{
+   font-size: 40px;
+   transition-property: all;
+   transition-duration: 0.8s;
+   width: fit-content;
+   padding: 0px 20px;
+   margin-left: 440px;
+   cursor: default;
+}
+.zx:hover{
+   transform: scale(1.1);
+   
+   background-image: radial-gradient(circle,rgb(237, 237, 16),rgb(226, 109, 46));
+   box-shadow: 3px 3px 5px 5px black;
+}
+.C{
+   display: flex;
+   margin: 50px 0px 0px 180px;
+}
+.D{
+   text-align: center;
+   margin-left: 50px;
+}
+.D img{
+   height: 50px;
+   width: 50px;
+   transition-property: all;
+   transition-duration: 0.5s;
+   margin-right: 30px;
+}
+.D img:hover{
+   transform: scale(1.5);
+
+}
+.D h3{
+   transition-property: all;
+   transition-duration: 0.6s;
+   width: fit-content;
+   padding: 5px 10px;
+   margin-left: 75px;
+   cursor: default;
+}
+.D h3:hover{
+   color: white;
+   transform: scale(1.1);
+   background-image: linear-gradient(to right,red,rgb(235, 228, 228));
+   box-shadow: 2px 2px 3px 3px black;
+
+}
+
+
+.pk {
+           display: flex;
+           background-image: linear-gradient(to right,rgb(94, 90, 90),white);
+           width: 100%;
+           height: 470px;
+           margin-top: 30px;
+       }
+
+       video {
+           height: fit-content;
+           width: 520px;
+           margin: 90px 0px 50px 120px;
+           border: 1px solid black;
+           transition-property: all;
+           transition-duration: 0.7s;
+
+       }
+
+       video:hover {
+           border: 1px solid rgb(42, 40, 40);
+           box-shadow: 3px 3px 5px 5px black;
+           transform: scale(1.1);
+       }
+
+       .kp {
+           margin: 80px 0px 50px 140px;
+       }
+
+       .kp h1 {
+           font-size: 40px;
+           transition-property: all;
+           transition-duration: 0.7s;
+           width: fit-content;
+           padding: 0px 5px;
+           cursor: default;
+           
+       }
+       .kp h1:hover{
+           transform: scale(1.1);
+           color: white;
+           box-shadow: 3px 3px 5px 5px black;
+           background-image: linear-gradient(to right,purple,white);
+       }
+
+       .kp button {
+           background-color: black;
+           border: 1px solid rgba(7, 7, 7, 0.15);
+           padding: 10px 25px;
+           transition-property: all;
+           transition-duration: 0.6s;
+           cursor: pointer;
+
+
+       }
+
+       .kp button:hover {
+           transform: scale(1.1);
+           box-shadow: 3px 3px 5px 5px black;
+           background-image: linear-gradient(to right,purple,white);
+           
+       }
+
+       .kp button a {
+           color: white;
+           text-decoration: none;
+       }
+
+       
+
+       
+       
+       .H{
+   background-color: black;
+   height: 100px;
+   width: 1340px;
+   text-align: center;
+   color: white;
+   display: inline-block;
+   
+   
+   
+}
+.H p{
+   margin-top: 20px;
+   line-height: 2em;
+}
+.H p:hover{
+   color: orangered;
+}

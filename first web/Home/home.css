@@ -1,0 +1,1546 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, rgb(233, 41, 233), white);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, rgb(183, 175, 175), rgb(8, 8, 8));
+  border-radius: 2px;
+
+}
+
+.main {
+  background-image: url(Pictures/7.jpg);
+  background-size: cover;
+  height: 670px;
+  width: 100%;
+
+
+}
+
+.WEB {
+  display: flex;
+
+
+}
+
+.ab h3 {
+  margin-left: 10px;
+  background-color: black;
+  width: fit-content;
+  color: rgba(247, 251, 246, 0.886);
+  padding: 3px 10px;
+  border-top: 1px solid rgb(243, 246, 243);
+  border-bottom: 1px solid rgb(242, 247, 241);
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-style: italic;
+  transition-property: all;
+  transition-duration: 1s;
+  cursor: pointer;
+
+}
+
+.WEB h3:hover {
+
+  color: black;
+  background-image: linear-gradient(to right, orangered, white);
+  border-top: 1px solid orangered;
+  border-bottom: 1px solid orangered;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 3px 3px rgb(148, 132, 125);
+
+}
+
+.B {
+  margin-left: 100px;
+
+}
+
+.B li {
+  float: left;
+  list-style: none;
+  margin: 0px 15px;
+  font-size: 18px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.B li:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(135deg, rgb(225, 98, 225) 40%, rgb(44, 225, 238));
+  box-shadow: 2px 2px 3px 3px rgb(208, 204, 203);
+  border: 1px solid rgb(192, 182, 182);
+}
+
+.B li a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
+.C {
+  margin-left: 120px;
+}
+
+.C button {
+  background-color: black;
+  padding: 8px 15px;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 12px 0px 0px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+.C button a {
+  color: white;
+  text-decoration: none;
+}
+
+.C button:hover {
+  background-image: linear-gradient(to right, purple, white);
+  border: 1px solid black;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 7px 5px rgb(214, 209, 207);
+}
+
+.C button a:hover {
+  color: black;
+
+}
+
+.G {
+  color: white;
+  margin: 120px 0px 0px 90px;
+}
+
+.G h3 {
+  transition-property: all;
+  transition-duration: 1s;
+  width: fit-content;
+  padding: 5px 5px;
+  cursor: default;
+}
+
+.G h3:hover {
+  background-image: linear-gradient(to right, rgb(250, 71, 6), white);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 3px 3px rgb(93, 88, 88);
+  color: black;
+}
+
+.G h1 {
+  font-size: 50px;
+  transition-property: all;
+  transition-duration: 1.5s;
+  width: fit-content;
+  height: fit-content;
+  cursor: default;
+}
+
+.G h1:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 3px 3px black;
+}
+
+.k {
+  padding: 9px 20px;
+  margin: 20px 0px 0px 10px;
+  background-color: black;
+  border: 1px solid white;
+  transition-property: all;
+  transition-duration: 1s;
+  cursor: pointer;
+
+}
+
+
+
+.G button a {
+  text-decoration: none;
+  color: white;
+}
+
+.s {
+  padding: 9px 32px;
+  background-color: black;
+  border: 1px solid white;
+  margin-left: 15px;
+  transition-property: all;
+  transition-duration: 1s;
+  cursor: pointer;
+
+
+}
+
+
+
+.s:hover {
+  background-image: linear-gradient(135deg, rgb(220, 84, 220) 40%, rgb(44, 225, 238));
+  border: 1px solid rgb(169, 163, 163);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 3px rgb(203, 183, 176);
+}
+
+.k:hover {
+  background-image: linear-gradient(135deg, rgb(220, 84, 220) 40%, rgb(44, 225, 238));
+  border: 1px solid rgb(164, 156, 156);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 3px rgb(233, 222, 218);
+}
+
+.Z {
+  display: flex;
+  margin: 50px 0px 0px 50px;
+
+}
+
+.z {
+  background-color: black;
+  height: 160px;
+  width: 250px;
+  margin-left: 40px;
+  color: white;
+  border: 1px solid white;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.z:hover {
+  transform: scale(1.1);
+
+  border: 1px solid rgb(68, 66, 65);
+  box-shadow: 2px 2px 5px 5px rgb(18, 18, 17);
+
+}
+
+
+.z h2 {
+  margin: 30px 0px 0px 20px;
+  transition-property: all;
+  transition-duration: 1s;
+  width: fit-content;
+  padding: 2px 5px;
+  cursor: default;
+}
+
+.z p {
+  margin: 15px 0px 0px 20px;
+}
+
+.z h2:hover {
+  background-image: linear-gradient(135deg, rgb(240, 31, 31) 40%, rgb(238, 177, 44));
+
+  transform: scale(1.1);
+  box-shadow: 2px 2px 3px 3px rgb(227, 203, 194);
+}
+
+.z p:hover {
+  color: orangered;
+}
+
+.Y {
+  display: flex;
+}
+
+.y {
+  margin: 70px 0px 0px 150px;
+}
+
+.y h1 {
+  font-size: 60px;
+  transition-property: all;
+  transition-duration: 1s;
+  width: fit-content;
+  padding: 0px 10px;
+  cursor: default;
+
+}
+
+.y h1:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(to right, rgb(220, 82, 220), white);
+  box-shadow: 3px 3px 5px 5px black;
+  color: white;
+}
+
+.y button {
+  padding: 9px 25px;
+  background-color: black;
+  border: 1px solid white;
+  margin: 10px 0px 0px 0px;
+  transition-property: all;
+  transition-duration: 0.8s;
+  cursor: pointer;
+}
+
+.y button:hover {
+  border: 1px solid rgb(13, 12, 12);
+  background-image: linear-gradient(to right, rgb(220, 82, 220), white);
+  transform: scale(1.2);
+  box-shadow: 2px 2px 3px 3px rgb(41, 40, 40);
+}
+
+.y button a {
+  color: white;
+  text-decoration: none;
+}
+
+.y button a:hover {
+  color: black;
+}
+
+.x {
+  height: 400px;
+  width: 570px;
+  margin: 50px 0px 0px 0px;
+  transition-property: all;
+  transition-duration: 0.7s;
+
+}
+
+.x:hover {
+  transform: scale(1.03);
+}
+
+.v {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.v:hover {
+  color: orangered;
+}
+
+.K {
+  display: flex;
+  background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+  height: 550px;
+  width: 100%;
+}
+
+.J {
+  background-image: linear-gradient(to left, #43cea2, #185a9d);
+  height: 450px;
+  width: 600px;
+  margin: 50px 0px 0px 80px;
+  color: black;
+  border: 1px solid rgb(144, 139, 139);
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+.J:hover {
+  border: 1px solid rgb(147, 142, 141);
+
+  transform: scale(1.04);
+  box-shadow: 4px 4px 5px 5px rgb(5, 5, 5);
+}
+
+.J h1 {
+
+  margin: 50px 0px 0px 20px;
+  transition-property: all;
+  transition-duration: 0.8s;
+  width: fit-content;
+  padding: 0px 10px;
+  cursor: default;
+}
+
+.J h1:hover {
+  color: white;
+  background-image: linear-gradient(to right, black, white);
+  transform: scale(1.1);
+  border: 1px solid rgb(86, 82, 82);
+  box-shadow: 2px 2px 3px 3px rgb(37, 35, 35);
+}
+
+.J P {
+  margin: 20px 0px 0px 30px;
+
+}
+
+
+
+.J button {
+  padding: 8px 23px;
+
+  background-color: black;
+  border: 1px solid rgb(2, 2, 2);
+  margin-left: 15px;
+  margin: 20px 0px 0px 30px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+
+.J button:hover {
+  border: 1px solid rgb(61, 56, 56);
+  background-image: linear-gradient(to right, black, white);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 3px 3px rgb(77, 73, 73);
+}
+
+.J button a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.i {
+  height: 160px;
+  width: 200px;
+  margin: 0px 0px 0px 350px;
+  transition-property: all;
+  transition-duration: 0.6s;
+}
+
+.i:hover {
+  transform: scale(1.1);
+}
+
+.p {
+  height: 200px;
+  width: 230px;
+  margin: 0px 0px 0px 30px;
+  display: inline-block;
+  border: 1px solid rgb(122, 118, 118);
+  transition-property: all;
+  transition-duration: 0.7s;
+
+}
+
+.p:hover {
+  border: 1px solid rgb(78, 76, 75);
+  transform: scale(1.1);
+  box-shadow: 3px 2px 3px 5px rgb(31, 29, 29);
+}
+
+.o {
+  height: 200px;
+  width: 230px;
+  margin: 12px 0px 20px 30px;
+  display: inline-block;
+  border: 1px solid rgb(146, 139, 139);
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+
+.o:hover {
+  border: 1px solid rgb(70, 68, 67);
+  transform: scale(1.1);
+  box-shadow: 3px 2px 5px 5px rgb(22, 21, 21);
+}
+
+.P {
+  margin: 50px 0px 0px 20px;
+
+}
+
+.u {
+  height: 180px;
+  width: 200px;
+  margin: 20px 0px 0px 350px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.u:hover {
+  transform: scale(1.1);
+
+}
+
+.q {
+  color: white;
+  margin: 20px 0px 0px 100px;
+}
+
+.f {
+  height: 670px;
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.T h1 {
+  font-size: 80px;
+  text-align: center;
+  transition-property: all;
+  transition-duration: 0.8s;
+
+
+
+}
+
+.T h1:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+.AB {
+  display: flex;
+}
+
+.AC {
+  background-image: linear-gradient(135deg, white, black);
+  height: 350px;
+  width: 50%;
+  border-bottom: 1px solid #444444;
+  border-top: 1px solid #444444;
+}
+
+.AC img {
+  margin: 70px 0px 0px 80px;
+  height: 55px;
+  width: 55px;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+
+.AC img:hover {
+  transform: scale(1.3);
+}
+
+.AC h2 {
+  margin: 20px 0px 0px 60px;
+  color: black;
+  transition-property: all;
+  transition-duration: 0.8s;
+  width: fit-content;
+  padding: 3px 20px;
+  cursor: default;
+}
+
+.AC p {
+  margin: 20px 0px 0px 80px;
+  color: black;
+}
+
+.AC h2:hover {
+  color: white;
+  background-image: linear-gradient(to right, purple, white);
+  transform: scale(1.1);
+  box-shadow: 2px 1px 2px 3px rgb(60, 58, 58);
+}
+
+.AC p:hover {
+  color: rgb(252, 252, 252);
+}
+
+.AD img {
+  margin: 70px 0px 0px 80px;
+  height: 55px;
+  width: 55px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.AD img:hover {
+  transform: scale(1.3);
+}
+
+.AD h2 {
+  margin: 20px 0px 0px 60px;
+  color: rgb(0, 0, 0);
+  transition-property: all;
+  transition-duration: 0.8s;
+  width: fit-content;
+  padding: 3px 20px;
+  cursor: default;
+
+}
+
+.AD p {
+  margin: 20px 0px 0px 80px;
+  color: rgb(0, 0, 0);
+
+}
+
+.AD h2:hover {
+  color: white;
+  background-image: linear-gradient(to right, purple, white);
+  transform: scale(1.1);
+  box-shadow: 2px 1px 2px 3px rgb(61, 58, 58);
+}
+
+.AD p:hover {
+  color: rgb(253, 253, 253);
+}
+
+.AD {
+  background-image: linear-gradient(135deg, black, white);
+  height: 350px;
+  width: 50%;
+  border-bottom: 1px solid #444444;
+  border-top: 1px solid #444444;
+}
+
+.BC {
+  background-image: url(man-7847247.jpg);
+  background-size: cover;
+  height: 655px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #444444;
+}
+
+.BA {
+  color: rgb(255, 253, 253);
+  font-size: 40px;
+  font-style: italic;
+  margin: 50px 0px 0px 150px;
+  transition-property: all;
+  transition-duration: 1s;
+  width: fit-content;
+  height: fit-content;
+
+  cursor: default;
+}
+
+.BA:hover {
+  transform: scale(1.1);
+
+}
+
+.AA {
+
+  background-image: linear-gradient(90deg, black, white);
+
+  height: 1650px;
+  width: 100%;
+  display: inline-block;
+}
+
+
+.AA h2 {
+
+  margin: 30px 0px 0px 460px;
+  transition-property: all;
+  transition-duration: 0.8s;
+  cursor: default;
+  width: fit-content;
+  padding: 10px 20px;
+}
+
+.AA h2:hover {
+  color: white;
+  background-image: linear-gradient(#eecda3, #ef629f);
+  border: 1px solid rgb(158, 144, 144);
+  transform: scale(1.1);
+  box-shadow: 3px 2px 3px 3px rgb(28, 27, 27);
+}
+
+.BB {
+  border: 1px solid #444444;
+  background-image: linear-gradient(#d85e7f 40%, rgb(217, 226, 224));
+  height: 450px;
+  width: 350px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 60px 0px 0px 480px;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+.BB:hover {
+  transform: scale(1.04);
+  box-shadow: 3px 2px 5px 5px rgb(244, 241, 240);
+  border: 1px solid rgb(207, 164, 149);
+
+}
+
+.ks {
+  color: rgb(243, 241, 241);
+  margin: 50px 0px 0px 125px;
+
+
+}
+
+.ks:hover {
+  color: rgb(250, 250, 250);
+
+
+}
+
+.BB h1 {
+  color: rgb(33, 31, 31);
+  margin: 0px 0px 0px 130px;
+  font-size: 40px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: default;
+
+
+}
+
+.BB h1:hover {
+  transform: scale(1.1);
+
+}
+
+
+.BB span {
+  color: #fdfbfb;
+  font-size: 13px;
+  margin: 0px 0px 0px 130px;
+  font-weight: bold;
+}
+
+.BB span:hover {
+  color: rgb(35, 32, 32);
+}
+
+.BB P {
+  color: #2c2828;
+  text-align: center;
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: default;
+}
+
+.BB p:hover {
+  color: rgb(234, 223, 218);
+  transform: scale(1.2);
+}
+
+.BB button {
+  background-color: black;
+  color: white;
+  padding: 12px 110px;
+  border: 1px solid black;
+  margin: 25px 0px 0px 18px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
+.BB button:hover {
+  background-image: linear-gradient(to right, black, rgb(232, 218, 218));
+  border: 1px solid rgb(75, 69, 69);
+  transform: scale(1.04);
+  box-shadow: 3px 2px 3px 3px rgb(24, 23, 23);
+}
+
+.BB button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.BB button a:hover {
+  color: white;
+}
+
+.sk {
+  color: white;
+  margin: 50px 0px 0px 100px;
+}
+
+.JK {
+  width: 100%;
+}
+
+.JK h1 {
+  margin: 40px 0px 0px 555px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  width: fit-content;
+  padding: 4px 30px;
+  cursor: default;
+}
+
+.JK h1:hover {
+  color: white;
+  background-image: linear-gradient(#43cea2, #185a9d);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 5px rgb(33, 32, 32);
+}
+
+.KL img {
+  height: 400px;
+  width: 300px;
+  margin: 40px 0px 40px 200px;
+  border: 1px solid #313030;
+  transition-property: all;
+  transition-duration: 0.8s;
+
+}
+
+.KL img:hover {
+  border: 1px solid rgb(49, 47, 47);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 7px rgb(28, 27, 26);
+}
+
+.KL {
+  display: inline-block;
+}
+
+.LM img {
+  height: 400px;
+  width: 300px;
+  margin: 40px 0px 40px 40px;
+  border: 1px solid #313030;
+  transition-property: all;
+  transition-duration: 0.8s;
+
+}
+
+.LM img:hover {
+  border: 1px solid rgb(71, 68, 67);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 7px rgb(25, 24, 24);
+}
+
+.LM {
+  display: inline-block;
+}
+
+.jk {
+  background-image: linear-gradient(#bdc3c7, #2c3e50);
+  height: 650px;
+  width: 100%;
+  border-top: 1px solid #888080;
+  border-bottom: 1px solid #9c9292;
+  margin-top: 20px;
+
+}
+
+.jk h1 {
+  padding-top: 30px;
+  margin-left: 555px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: default;
+  height: fit-content;
+  width: fit-content;
+  padding: 3px 30px;
+}
+
+.jk h1:hover {
+  color: white;
+  background-image: linear-gradient(to right, #ffd89b, #19547b);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 3px rgb(26, 24, 23);
+}
+
+.kl img {
+  height: 400px;
+  width: 300px;
+  margin: 20px 0px 0px 200px;
+  border: 1px solid #928a8a;
+  transition-property: all;
+  transition-duration: 0.8s;
+
+}
+
+.kl img:hover {
+  border: 1px solid rgb(81, 77, 75);
+  transform: scale(1.1);
+  box-shadow: 3px 2px 5px 7px rgb(34, 33, 32);
+}
+
+.kl {
+  display: inline-block;
+}
+
+.lm img {
+  height: 400px;
+  width: 300px;
+  margin: 20px 0px 0px 40px;
+  border: 1px solid #847e7e;
+  transition-property: all;
+  transition-duration: 0.8s;
+
+}
+
+.lm img:hover {
+  border: 1px solid rgb(74, 71, 70);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 7px rgb(31, 31, 30);
+}
+
+.lm {
+  display: inline-block;
+}
+
+.vs button {
+  background-color: black;
+  padding: 10px 45px;
+  margin: 40px 0px 0px 590px;
+  border: 1px solid black;
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.vs button:hover {
+
+  background-image: linear-gradient(to left, #ffd89b, #19547b);
+  border: 1px solid rgb(134, 125, 122);
+  transform: scale(1.1);
+  box-shadow: 3px 2px 5px 5px rgb(27, 26, 26);
+}
+
+.vs button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.AZ {
+  background-image: linear-gradient(135deg, #19547b, #ffd89b);
+  height: 900px;
+  width: 100%;
+  display: inline-block;
+
+}
+
+.AZ h1 {
+  margin: 40px 0px 0px 505px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  width: fit-content;
+  padding: 3px 20px;
+  cursor: default;
+}
+
+.AZ h1:hover {
+  color: white;
+  background-image: linear-gradient(to left, #bdc3c7, #334c65);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 3px rgb(37, 36, 36);
+
+}
+
+.BZ {
+  background-image: linear-gradient(135deg, rgba(9, 9, 9, 0.403), white);
+  height: 350px;
+  width: 280px;
+  display: inline-block;
+  margin: 30px 0px 0px 370px;
+  border: 1px solid #656060;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+.BZ:hover {
+  border: 1px solid rgb(104, 101, 100);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 3px rgb(33, 32, 32);
+}
+
+.BZ h3 {
+  margin: 20px 0px 0px 90px;
+}
+
+.BZ span {
+  margin: 30px 0px 0px 100px;
+  color: orangered;
+}
+
+.CZ {
+  background-image: linear-gradient(135deg, rgba(9, 9, 9, 0.403), white);
+  height: 350px;
+  width: 280px;
+  display: inline-block;
+  margin: 30px 0px 0px 30px;
+  border: 1px solid #706c6c;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+.CZ:hover {
+  border: 1px solid rgb(63, 62, 61);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 3px rgb(25, 24, 24);
+}
+
+.CZ h3 {
+  margin: 20px 0px 0px 90px;
+}
+
+.CZ span {
+  margin: 30px 0px 0px 100px;
+  color: orangered;
+}
+
+.dz {
+  height: 250px;
+  width: 200px;
+  margin: 0px 0px 0px 40px;
+}
+
+.cz {
+  height: 250px;
+  width: 200px;
+  margin: 0px 0px 0px 30px;
+}
+
+.bz {
+  height: 250px;
+  width: 270px;
+
+}
+
+.az {
+  height: 250px;
+  width: 270px;
+}
+
+.CS {
+  background-image: url(young-fitness-man-studio.jpg);
+  background-size: cover;
+  height: 680px;
+  width: 100%;
+  display: inline-block;
+}
+
+.CS h1 {
+
+  margin: 100px 0px 0px 60px;
+  color: white;
+  transition-property: all;
+  transition-duration: 1s;
+  width: fit-content;
+  padding: 4px 20px;
+  cursor: default;
+}
+
+.CS h1:hover {
+  color: rgb(6, 5, 5);
+  background-image: linear-gradient(to right, #ba5370, #f4e2d8);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 5px rgb(26, 25, 25);
+
+}
+
+.CS p {
+  color: white;
+  margin: 40px 0px 0px 80px;
+
+}
+
+
+
+.CS button {
+  margin: 40px 0px 0px 80px;
+  padding: 10px 25px;
+  background-color: black;
+  border: 1px solid rgb(143, 137, 137);
+  transition-property: all;
+  transition-duration: 0.8s;
+  cursor: pointer;
+
+}
+
+.CS button:hover {
+  background-image: linear-gradient(to right, #d53160, #f4e2d8);
+  border: 1px solid rgb(40, 38, 38);
+  transform: scale(1.1);
+  box-shadow: 3px 3px 3px 3px rgb(7, 7, 7);
+}
+
+.CS button a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.CS button a:hover {
+  color: black;
+}
+
+.pk {
+  display: flex;
+
+
+}
+
+video {
+  height: fit-content;
+  width: 520px;
+  margin: 90px 0px 50px 120px;
+  border: 1px solid black;
+  transition-property: all;
+  transition-duration: 0.8s;
+
+}
+
+video:hover {
+
+  transform: scale(1.1);
+  box-shadow: 3px 3px 3px 3px rgb(47, 44, 44);
+}
+
+.kp {
+  margin: 80px 0px 50px 140px;
+}
+
+.kp h1 {
+  font-size: 50px;
+  transition-property: all;
+  transition-duration: 0.8s;
+  cursor: default;
+  width: 430px;
+}
+
+.kp h1:hover {
+  transform: scale(1.1);
+  color: white;
+  background-image: linear-gradient(to left, #e1e8ed, #2c3e50);
+  box-shadow: 3px 3px 5px 5px rgb(31, 29, 29);
+}
+
+
+.kp button {
+  background-color: black;
+  border: 1px solid white;
+  padding: 9px 25px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: pointer;
+
+}
+
+.kp button:hover {
+  border: 1px solid rgb(71, 69, 68);
+
+  background-image: linear-gradient(to left, #e1e8ed, #2c3e50);
+  transform: scale(1.1);
+  box-shadow: 2px 1px 3px 3px rgb(20, 20, 20);
+}
+
+.kp button a {
+  color: white;
+  text-decoration: none;
+}
+
+.kp button a:hover {
+  color: rgb(0, 0, 0);
+}
+
+
+
+.PPP {
+  background-color: black;
+  height: 670px;
+  width: 100%;
+  display: flex;
+}
+
+.ppp {
+  background-image: linear-gradient(135deg, black, rgb(161, 154, 154));
+  height: 570px;
+  width: 370px;
+  margin: 60px 0px 0px 70px;
+  color: white;
+  border: 1px solid #313030;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: default;
+}
+
+.ppp:hover {
+  border: 1px solid rgb(235, 231, 229);
+}
+
+.ppp h1 {
+  text-align: center;
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: default;
+}
+
+.ppp h1:hover {
+  transform: scale(1.1);
+}
+
+.ppp li {
+  font-size: 22px;
+  line-height: 1.5em;
+  margin-left: 10px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.ppp li:hover {
+  transform: scale(1.1);
+}
+
+.ppk {
+  background-image: linear-gradient(rgb(193, 185, 185), black);
+  height: 570px;
+  width: 370px;
+  margin: 60px 0px 0px 50px;
+  color: white;
+  border: 1px solid #313030;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: default;
+
+}
+
+.ppk:hover {
+  border: 1px solid rgb(224, 217, 216);
+}
+
+.ppk h1 {
+  margin: 20px 0px 0px 30px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.ppk h1:hover {
+  transform: scale(1.06);
+}
+
+.ma {
+  margin: 0px 0px 0px 30px;
+  font-size: 25px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.ma:hover {
+  transform: scale(1.1);
+}
+
+.ppk li {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.55em;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.ppk li:hover {
+  transform: scale(1.1);
+}
+
+.kpp {
+  background-image: linear-gradient(135deg, black, rgb(161, 154, 154));
+  height: 570px;
+  width: 370px;
+  margin: 60px 0px 0px 50px;
+  color: white;
+  border: 1px solid #313030;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: default;
+}
+
+.kpp:hover {
+  border: 1px solid white;
+}
+
+.kpp h1 {
+  margin: 30px 0px 0px 30px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.kpp h1:hover {
+  transform: scale(1.1);
+}
+
+.kpp li {
+  font-size: 22px;
+  margin: 5px 0px 0px 10px;
+  line-height: 1.7em;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+
+.kpp li:hover {
+  transform: scale(1.1);
+
+}
+
+.KPK {
+  display: flex;
+  background-image: linear-gradient(135deg, rgb(89, 87, 87), rgb(255, 255, 255));
+  width: 100%;
+  border-bottom: 1px solid #aca7a7;
+
+
+}
+
+.kpk img {
+  height: 600px;
+  width: 600px;
+  margin: 55px 0px 0px 0px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: grab;
+}
+
+.kpk img:hover {
+  transform: scale(1.03);
+
+}
+
+.pkp h1 {
+  font-size: 40px;
+  width: fit-content;
+  padding: 0px 20px;
+  margin: 150px 0px 0px 80px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+}
+
+.pkp h1:hover {
+  color: white;
+  background-image: linear-gradient(to right, green, white);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 10px 5px rgb(46, 43, 42);
+}
+
+.pkp p {
+  margin: 20px 0px 0px 100px;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+.pkp button {
+
+  padding: 10px 55px;
+  margin: 70px 0px 0px 250px;
+  background-color: rgb(0, 0, 0);
+  font-size: 18px;
+  border-radius: 3px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: pointer;
+
+}
+
+.pkp button:hover {
+  background-image: linear-gradient(to right, green, white);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px 5px rgb(26, 26, 25);
+}
+
+.pkp button a {
+  color: rgb(250, 244, 244);
+  text-decoration: none;
+}
+
+.pkp button a:hover {
+  color: black;
+
+}
+
+
+.FO {
+  background-image: linear-gradient(purple, white);
+  height: 550px;
+  width: 100%;
+  display: flex;
+
+}
+
+.fo {
+  margin: 10px 0px 0px 150px;
+}
+
+.zf {
+  font-size: 20px;
+
+}
+
+.fo h1 {
+  font-size: 40px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+}
+
+.fo h1:hover {
+  transform: scale(1.1);
+}
+
+.fo li {
+  font-size: 22px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+}
+
+.fo li:hover {
+  transform: scale(1.1);
+}
+
+.fz {
+  font-size: 40px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+
+}
+
+.fz:hover {
+  transform: scale(1.1);
+
+}
+
+.OF {
+  margin: 20px 0px 0px 150px;
+
+}
+
+.OF span {
+  font-size: 30px;
+
+}
+
+.OF form {
+  background-color: white;
+  height: 320px;
+  width: 400px;
+  margin: 40px 0px 0px 0px;
+  display: inline-block;
+  border: 1px solid #aea5a5;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.OF form:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px 5px 5px black;
+
+}
+
+.man {
+  margin: 40px 0px 0px 20px;
+}
+
+.wman {
+  margin: 0px 0px 0px 20px;
+}
+
+.fri {
+  margin: 0px 0px 0px 20px;
+  padding: 9px 90px;
+  border: 1px solid black;
+
+}
+
+.fri:hover {
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px 3px black;
+}
+
+.fra {
+  margin: 0px 0px 0px 20px;
+  padding: 50px 90px;
+  border: 1px solid black;
+}
+
+.fra:hover {
+
+  box-shadow: 2px 2px 3px 3px black;
+}
+
+.frd {
+  margin: 20px 0px 0px 20px;
+  padding: 9px 155px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  transition-property: all;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.frd:hover {
+  background-image: linear-gradient(to right, black, white);
+
+  border: 1px solid black;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 10px 5px black;
+
+}
+
+.KI {
+  background-image: linear-gradient(to right, black, rgb(126, 119, 119));
+  height: 110px;
+  width: 100%;
+  display: flex;
+  color: white;
+}
+
+.ki p {
+  text-align: center;
+  margin: 20px 0px 0px 330px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+}
+
+.ki p:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+.ki h3 {
+  margin-left: 330px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+}
+
+.ki h3:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+.kir p {
+  font-size: 20px;
+  margin: 40px 0px 0px 300px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+}
+
+.kir p:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+.kir span {
+  margin-left: 300px;
+
+}
+
+.kir span:hover {
+  color: orangered;
+
+}

@@ -1,0 +1,235 @@
+.WEB{
+  background-image: url(Contact_Us_alt_1488886301.jpg);
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+}
+
+.ab{
+  display: inline-block;
+}
+.ab h3{
+  margin-left: 10px;
+  background-color: black;
+  width: fit-content;
+  color: rgba(247, 251, 246, 0.886);
+  padding: 3px 10px;
+  border-top: 1px solid rgb(243, 246, 243);
+  border-bottom: 1px solid rgb(242, 247, 241);
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-style: italic;
+  transition-property: all;
+   transition-duration: 1s;
+  cursor: default;
+
+}
+.WEB h3:hover{
+
+  color:black;
+  background-image: linear-gradient(to right, orangered,white);
+  border-top: 1px solid orangered;
+  border-bottom: 1px solid orangered;
+  transform: scale(1.1);
+   box-shadow: 2px 2px 3px 3px rgb(15, 15, 15);
+}
+.Bb{
+  margin-left: 100px;
+ display: inline-block;
+}
+.Bb li {
+  float: left;
+  list-style: none;
+  margin: 0px 20px;
+  font-size: 18px;
+  transition-property: all;
+ transition-duration: 0.7s;
+  padding: 5px 10px;
+ border: 1px solid rgba(0, 0, 0, 0.008);
+  border-radius: 2px;
+  cursor: pointer;
+  
+}
+.Bb li:hover {
+          transform: scale(1.1);
+          background-image: linear-gradient( 135deg , rgb(225, 98, 225) 40%,rgb(44, 225, 238));
+          box-shadow: 2px 2px 3px 3px rgb(17, 16, 16);
+          border: 1px solid rgb(156, 149, 149);
+      }
+.Bb li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+
+.Cc{
+  margin-left: 100px;
+  display: inline-block;
+}
+.Cc button {
+background-color: black;
+padding: 8px 15px;
+border: 1px solid rgb(255, 255, 255);
+margin: 12px 0px 0px 10px;
+border-radius: 20px;
+font-size: 14px;
+cursor: pointer;
+transition-property: all;
+transition-duration: 0.8s;
+}
+.Cc button a{
+  color: white;
+  text-decoration: none;
+}
+.Cc button:hover{
+  background-image: linear-gradient(to right, purple,white);
+          border: 1px solid black;
+          transform: scale(1.1);
+          box-shadow: 2px 2px 5px 5px rgb(20, 20, 19);
+  
+}
+.Cc button a:hover{
+  color:rgb(5, 5, 5);
+ 
+}
+
+
+.B{
+  display: flex;
+  
+  background-image: linear-gradient(to right,rgb(62, 59, 59),white);
+  width: 100%;
+  height: 500px;
+}
+.C{
+  margin: 40px 0px 0px 150px;
+}
+.C h1{
+  font-size: 35px;
+  transition-property: all;
+  transition-duration: 0.8s;
+  cursor: default;
+  width: fit-content;
+  padding: 0px 10px;
+}
+.C h1:hover{
+  transform: scale(1.1);
+  color: white;
+  box-shadow: 3px 3px 5px 5px black;
+  background-image: linear-gradient(to right,rgb(44, 40, 40),rgb(228, 228, 50));
+}
+.D{
+  padding: 9px 180px 9px 5px;
+  margin-top: 15px;
+  border: 1px solid rgb(169, 159, 159);
+  transition-property: all;
+  
+}
+.D:hover{
+  border: 1px solid rgb(52, 50, 50);
+  box-shadow: 2px 2px 3px 3px black;
+}
+
+.E{
+  padding: 5px 180px 70px 5px;
+  margin-top: 15px;
+  border: 1px solid rgb(169, 159, 159);
+
+}
+.E:hover{
+  border: 1px solid rgb(52, 50, 50);
+  box-shadow: 2px 2px 3px 3px black;
+}
+.C button{
+  background-color: rgb(1, 1, 1);
+  padding: 10px 20px;
+  border: 1px solid rgba(3, 3, 3, 0.098);
+  border-radius: 3px;
+  margin: 20px 0px 0px 5px;
+  font-size: 12px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+.C button:hover{
+  background-image:linear-gradient(135deg,rgb(19, 19, 16),rgb(209, 232, 42)) ;
+  border: 1px solid black;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 3px 3px black;
+}
+.C button a{
+  color: white;
+  text-decoration: none;
+}
+.C button a:hover{
+  color: black;
+}
+
+.F img{
+  height: 40px;
+  
+  margin-top: 20px;
+  margin-left: 20px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  border: 1px solid rgba(0, 0, 0, 0.064);
+  border-radius: 50px;
+}
+.F img:hover{
+  transform: scale(1.5);
+  box-shadow: 2px 2px 3px 3px rgb(93, 89, 89);
+  
+}
+.sk{
+  margin-left: 190px;
+}
+.F h1{
+  transition-property: all;
+  transition-duration: 0.7s;
+  width: fit-content;
+  padding: 0px 10px;
+  margin: 65px 0px 0px 200px;
+  cursor: default;
+  
+}
+.F h1:hover{
+  transform: scale(1.1);
+  color: white;
+  box-shadow: 3px 3px 5px 5px black;
+  background-image: linear-gradient(to right,rgb(44, 40, 40),rgb(228, 228, 50));
+}
+.F h3{
+  transition-property: all;
+  transition-duration: 0.7s;
+  width: fit-content;
+  padding: 0px 10px;
+  margin: 30px 0px 0px 200px;
+  cursor: default;
+}
+.F h3:hover{
+  transform: scale(1.1);
+  color: white;
+  box-shadow: 3px 3px 5px 5px black;
+  background-image: linear-gradient(to right,rgb(44, 40, 40),rgb(228, 228, 50));
+}
+.ad{
+  margin: 10px 0px 0px 210px;
+}
+.H{
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: inline-block;
+
+  
+  
+}
+.H p{
+  margin-top: 20px;
+  line-height: 2em;
+}
+.H p:hover{
+  color: orangered;
+}

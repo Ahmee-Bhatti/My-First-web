@@ -1,0 +1,217 @@
+
+.WEB{
+  background-image: url(fitness-4872810.jpg);
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+}
+.A h1{
+  color: white;
+  width: fit-content;
+  font-size: 50PX;
+  margin: 100px 0px 0px 80px;
+  padding: 0px 20px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: default;
+}
+.A h1:hover{
+  color: black;
+  transform: scale(1.1);
+  background-image: linear-gradient(to right,green,white);
+  box-shadow: 3px 3px 5px 5px black;
+}
+.A p{
+  color: white;
+  margin: 20px 0px 0px 100px ;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+
+.ab{
+  display: inline-block;
+}
+.ab h3{
+  margin-left: 10px;
+  background-color: black;
+  width: fit-content;
+  color: rgba(247, 251, 246, 0.886);
+  padding: 3px 10px;
+  border-top: 1px solid rgb(243, 246, 243);
+  border-bottom: 1px solid rgb(242, 247, 241);
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-style: italic;
+  transition-property: all;
+   transition-duration: 1s;
+  cursor: default;
+
+}
+.WEB h3:hover{
+
+  color:black;
+  background-image: linear-gradient(to right, orangered,white);
+  border-top: 1px solid orangered;
+  border-bottom: 1px solid orangered;
+  transform: scale(1.1);
+   box-shadow: 2px 2px 3px 3px rgb(148, 132, 125);
+}
+.Bb{
+  margin-left: 100px;
+ display: inline-block;
+}
+.Bb li {
+  float: left;
+  list-style: none;
+  margin: 0px 20px;
+  font-size: 18px;
+  transition-property: all;
+ transition-duration: 0.7s;
+  padding: 5px 10px;
+ border: 1px solid rgba(0, 0, 0, 0.008);
+  border-radius: 2px;
+  cursor: pointer;
+  
+}
+.Bb li:hover {
+          transform: scale(1.1);
+          background-image: linear-gradient( 135deg , rgb(225, 98, 225) 40%,rgb(44, 225, 238));
+          box-shadow: 2px 2px 3px 3px rgb(208, 204, 203);
+          border: 1px solid rgb(192, 182, 182);
+      }
+.Bb li a{
+  text-decoration: none;
+  color: white;
+}
+
+.Cc{
+  margin-left: 100px;
+  display: inline-block;
+}
+.Cc button {
+background-color: black;
+padding: 8px 15px;
+border: 1px solid rgb(255, 255, 255);
+margin: 12px 0px 0px 10px;
+border-radius: 20px;
+font-size: 14px;
+cursor: pointer;
+transition-property: all;
+transition-duration: 0.8s;
+}
+.Cc button a{
+  color: white;
+  text-decoration: none;
+}
+.Cc button:hover{
+  background-image: linear-gradient(to right, purple,white);
+          border: 1px solid black;
+          transform: scale(1.1);
+          box-shadow: 2px 2px 7px 5px rgb(214, 209, 207);
+  
+}
+.Cc button a:hover{
+  color:rgb(5, 5, 5);
+ 
+}
+
+
+.B {
+  display: flex;
+  
+}
+.C{
+  margin: 70px 0px 0px 100px;
+  line-height: 1.5em;
+}
+.C h1{
+  transition-property: all;
+  transition-duration: 0.7s;
+  width: fit-content;
+  padding: 10px 10px;
+  cursor: default;
+}
+.C h1:hover{
+  background-image: linear-gradient(to right,red,rgb(176, 163, 163));
+  color: white;
+  box-shadow: 3px 3px 5px 5px black;
+}
+.D img{
+  height: 300px;
+  width: 500px;
+  margin: 50px 0px 0px 150px;
+  border: 1PX solid gray;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+.D img:hover{
+  border: 1PX solid rgb(79, 76, 75);
+  box-shadow: 3px 3px 5px 5px black;
+  transform: scale(1.1);
+  
+}
+.E{
+  display: flex;
+
+}
+.F{
+  margin: 30px 0px 0px 100px;
+  line-height: 1.5em;
+}
+.F h1{
+  transition-property: all;
+  transition-duration: 0.7s;
+  width: fit-content;
+  padding: 10px 10px;
+  cursor: default;
+
+}
+.F h1:hover{
+  background-image: linear-gradient(to right,red,rgb(176, 163, 163));
+  color: white;
+  box-shadow: 3px 3px 5px 5px black;
+}
+.G{
+  margin: 30px 0px 0px 150px;
+  line-height: 1.5em;
+}
+.G h1{
+  transition-property: all;
+  transition-duration: 0.7s;
+  width: fit-content;
+  padding: 10px 10px;
+  cursor: default;
+}
+.G h1:hover{
+  background-image: linear-gradient(to right,red,rgb(176, 163, 163));
+  color: white;
+  box-shadow: 3px 3px 5px 5px black;
+}
+.G li{
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: default;
+}
+.G li:hover{
+  color: orangered;
+  transform: scale(1.1);
+}
+.H{
+  background-image: linear-gradient(to right,black,rgb(126, 119, 119));
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  margin-top: 40px;
+  
+  
+}
+.H p{
+  margin-top: 20px;
+  line-height: 2em;
+}
+.H p:hover{
+  color: orangered;
+}
